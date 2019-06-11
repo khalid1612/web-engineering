@@ -37,12 +37,18 @@
 <h3>part 3</h3>
 <ul>
   <li>
-  
+    2 images <em>school,collefe,robotics etc<b></b></em>
   </li>
   <li>
-  
+  1 table <em><b>education result</b></em>
   </li>
   <li>
-  
+  Last modification <em><b>footer</b></em>
+  </li>
+  <li>
+  Style sheet <em><b>include in index.html page internal and external</b></em>
+  </li>
+  <li>
+  More <em><b>User custom font</b></em>
   </li>
 </ul>
