@@ -1,5 +1,5 @@
-<a href="" target="_blank"><h1>SHOW FULL PAGE SCREENSHORT HERE</H1>
-  <img src="">
+<a href="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment1/full%20page%20screenshort.png" target="_blank"><h1>SHOW FULL PAGE SCREENSHORT HERE</H1>
+  <img src="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment1/full%20page%20screenshort.png">
 
 <h1>REQUIRMENT</h1>
 
