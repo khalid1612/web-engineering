@@ -1,5 +1,4 @@
-<a href="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment1/full%20page%20screenshort.png" target="_blank"><h1>SHOW FULL PAGE SCREENSHORT HERE</H1>
-  <img src="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment1/full%20page%20screenshort.png">
+<a href="#ss"><h1>SHOW FULL PAGE SCREENSHORT HERE</H1></a>
 
 <h1>REQUIRMENT</h1>
 
@@ -55,3 +54,8 @@
   More <em><b>User custom font</b></em>
   </li>
 </ul>
+
+
+
+  <img id="ss" src="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment1/full%20page%20screenshort.png">
+
