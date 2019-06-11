@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /*font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;*/
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/*global*/
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sectionHead{
+    width: 100%;
+    height: 60px;
+    background: #35424a;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.sectionBody{
+    padding: 30px 0 50px 20px;
+}
+
+
+/*header*/
+
+header{
+    width: 100%;
+    height: 70px;
+    background: #35424a;
+}
+
+.container_header{
+    padding: 0px 30px 0px 50px;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+    height: 100%;
+}
+
+.logo h1{
+    line-height: 70px;
+}
+
+.menu{
+    width: 50%;
+    height: 100%;
+}
+
+.menu ul{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.menu a:hover{
+    //font-weight: bold;
+    color: orangered;
+}
+
+
+/*showcase*/
+#showcase{
+    min-height: 500px;
+    background-image: url("../img/welcomebg.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+}
+
+#showcase h1{
+    font-size: 60px;
+}
+
+#showcase h5{
+    font-size: 25px;
+}
+
+#showcase h6{
+    font-size: 20px;
+}
+
+
+/*personal info*/
+#personal_info .sectionBody{
+    background: #a2a2a2;
+}
+
+#personal_info .sectionBody p{
+    line-height: 2;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+#personal_info .sectionBody .infoDetails{
+    font-weight: bold;
+}
+
+
+/*education*/
+.eduBox{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+.eduBoxBody{
+    background: #cccccc;
+    margin-top: 0px;
+}
+
+#education .eduBox img{
+    height: 300px;
+    width: 100%;
+}
+
+#education .eduBox a{
+    text-decoration: none;
+}
+
+#education table {
+    width: 100%;
+    margin-top: 100px;
+}
+
+#education table caption{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#education table th{
+    background: #a2a2a2;
+    padding: 10px;
+}
+
+#education table td{
+    background: #cccccc;
+    padding: 5px;
+}
+
+
+/*favorite*/
+.left5{
+    float: left;
+    width: 50%;
+}
+
+
+#favorite ol{
+    padding: 0 0 0 50px;
+    margin-bottom: 50px;
+}
+
+#favorite ol li{
+    line-height: 2;
+}
+
+#favorite ol li strong{
+    font-size: 16px;
+}
+
+#favorite ol li em{
+    font-size: 12px;
+}
+
+.quotes, .interest{
+    margin-top: 50px;
+}
+
+.interestBox{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.interestBox img{
+    width: 180px;
+    height: 180px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:1px;
+    border:1px solid #021a40;
+    background-color:#ff0;
+}
+
+
+/*programming and experience*/
+.skillBox{
+    width: 40%;
+    float: left;
+    padding: 20px 0 20px 30px;
+    margin: 5px;
+    background: #333333;
+    color: white;
+}
+
+.skillBox strong{
+    font-size: 20px;
+    color: #FFFF99;
+}
+
+
+/*footer*/
+footer{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.copyright{
+    width: 70%;
+    text-align: left;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.contact{
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+
+.contact img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+

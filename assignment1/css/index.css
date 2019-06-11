@@ -1,0 +1,65 @@
+nav{
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul{
+    text-align: right;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    float: right;
+    margin-right: 10px;
+}
+
+.welcome{
+    height: 600px;
+    width: 100%;
+    background-image: url("../img/welcomebg.jpg");
+    text-align: center;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+.whead{
+    font-size: 30px;
+    color: #cccccc;
+ }
+
+.wbody{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.wfooter{
+    font-size: 25px;
+    color: #a2a2a2;
+}
+
+.section_title{
+    background: aqua;
+    padding: 10px;
+    text-transform: uppercase;
+    overflow: auto;
+}
+
+.personal_information{
+    margin:0;
+    background:#FF9;
+    display:inline-block;
+    width:100%;
+}
+
+.personal_information p{
+    margin-left: 25%;
+}
+
+
