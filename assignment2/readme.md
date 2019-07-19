@@ -46,17 +46,17 @@
   <h3 id="ss">index with slide 1</h3>
   <img  src="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment2/screenshot/index-slide1.PNG">
   
-  <h3 id="ss">index with slide 2</h3>
+  <h3>index with slide 2</h3>
   <img  src="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment2/screenshot/index-slide2.PNG">
   
-  <h3 id="ss">converter</h3>
+  <h3>converter</h3>
   <img  src="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment2/screenshot/converter.PNG">
   
-  <h3 id="ss">quiz start</h3>
+  <h3>quiz start</h3>
   <img  src="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment2/screenshot/quiz-home.PNG">
   
-  <h3 id="ss">quiz question</h3>
+  <h3>quiz question</h3>
   <img  src="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment2/screenshot/quiz-question.PNG">
   
-    <h3 id="ss">quiz result</h3>
+    <h3>quiz result</h3>
   <img  src="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment2/screenshot/quiz-result.PNG">
