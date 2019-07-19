@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assignment 2 | convert | quiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <style>
+    .carousel-item .carousel-center{
+      text-align: center;
+      position: absolute;
+      margin: 0;
+      color: white;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .carousel-item img{
+
+    }
+
+    .carousel-caption {
+      right: 10px;
+      left: auto;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-sm bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-light" href="index.html">Assignment 2</a>
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link text-uppercase font-weight-bold text-warning" href="index.html">home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light text-uppercase" href="html/convert.html">convert</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light text-uppercase" href="html/quiz.html">quiz</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+<main>
+  <div class="mt-5"></div>
+  <section>
+    <div id="slide" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#slide" data-slide-to="0"></li>
+        <li data-target="#slide" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="img/cover.jpg" alt="currency convert" style="width: 100%; height: 500px;">
+          <div class="carousel-center">
+            <h1>CURRENCY CONVERT</h1>
+            <p>5 countries available</p>
+            <a href="html/convert.html" class="btn btn-warning text-uppercase">convert now</a>
+          </div>
+          <div class="carousel-caption">
+            <p id="q1" class="alert alert-warning"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/cover.jpg" alt="currency convert" style="width: 100%; height: 500px">
+          <div class="carousel-center">
+            <h1>QUIZ</h1>
+            <P>3+ questions with different category</P>
+            <a href="html/quiz.html" class="btn btn-warning text-uppercase">lets play</a>
+          </div>
+          <div class="carousel-caption">
+            <p id="q2" class="alert alert-warning"></p>
+          </div>
+        </div>
+      </div>
+      <a href="#slide" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#slide" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="bg-secondary p-3 text-light text-center">
+    <div class="container">
+      &copy 2019
+    </div>
+  </div>
+
+</footer>
+
+
+<script>
+  $('.carousel').carousel({
+    interval: 3000,
+    aler("changed")
+  });
+</script>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/fortune.js"></script>
+</body>
+</html>
