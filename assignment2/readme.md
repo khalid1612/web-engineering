@@ -17,6 +17,8 @@
   </li>
   </ol>
 </p>
+
+
 <a href="#ss"><h1>SHOW FULL PAGE SCREENSHORT HERE</H1></a>
 
 <h1>REQUIRMENT</h1>
@@ -58,5 +60,5 @@
   <h3>quiz question</h3>
   <img  src="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment2/screenshot/quiz-question.PNG">
   
-    <h3>quiz result</h3>
+  <h3>quiz result</h3>
   <img  src="https://raw.githubusercontent.com/khalid1612/web-engineering/master/assignment2/screenshot/quiz-result.PNG">
