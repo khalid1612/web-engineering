@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PHP and mySQL Project</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar bg-primary navbar-dark navbar-expand-sm border-bottom border-warning">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Assignment 3</a>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-uppercase text-light font-weight-bold " href="index.html">Home</a> </li>
+          <li class="nav-item"><a class="nav-link text-uppercase text-light" href="./html/student-list.html">student list</a> </li>
+          <li class="nav-item"><a class="nav-link text-uppercase text-light" href="./html/counselling.html">counselling hour</a> </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="showcase">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="row" style="height: 500px;">
+            <div class="col text-light text-center align-self-center">
+              <h1 class="display-1">CSE321</h1>
+              <P class="lead">Register for counselling hour </P>
+              <a class="btn btn-warning text-uppercase" href="#register-form">Register now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="register-form" class="text-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <form class="bg-dark p-2 rounded" method="post" action="" id="form">
+              <h1 class="text-center py-3 text-warning text-uppercase">Register here</h1>
+              <div class="form-group ml-5 mr-5">
+                <label class="lead">Name</label>
+                <input type="text" id="name" class="form-control">
+                <div class="invalid-feedback">Please enter your name</div>
+              </div>
+              <div class="form-group ml-5 mr-5">
+                <label class="lead">Email</label>
+                <input type="text" id="email" class="form-control">
+                <div class="invalid-feedback" id="emailErrMsg"></div>
+              </div>
+              <div class="form-group ml-5 mr-5">
+                <label class="lead">Student ID</label>
+                <input type="text" id="sid" class="form-control">
+                <div class="invalid-feedback" id="sidErrMsg"></div>
+              </div>
+              <div class="form-group ml-5 mr-5">
+                <label class="lead">Select the slot</label>
+                <select id="slot" class="form-control">
+                  <option value="">Select a slot</option>
+                  <!-- <option value="Monday">Monday 15.00-17.00 51 seats remaining</option>
+                  <option value="Tuesday">Tuesday 14.00-16.00 1 seats remaining</option>
+                  <option value="Thursday">Thursday 12.00-13.00 12 seats remaining</option>
+                  <option value="Friday">Friday 10.00-12.00 26 seats remaining</option> -->
+                </select>
+                <div class="invalid-feedback" id="slotErrMsg"></div>
+              </div>
+
+              <div class="form-group m-5 text-center">
+                <button type="button" id="register" class="btn btn-warning text-center">Complete Register</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-6 justify-content-center">
+            <div class="lead">
+              <h6>Register only if you know what you are doing</h6>
+              <ul>
+                <li>Please enter all information correctly</li>
+                <li>Check the number of available seats before submitting</li>
+                <li>Register only to one slot</li>
+                <li>Any problem? write a message to hello@world.com</li>
+              </ul>
+            </div>
+
+            <div class="alert" id="result">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/register.js"></script>
+  <script src="js/fetch-slot.js"></script>
+</body>
+
+</html>
