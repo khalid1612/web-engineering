@@ -18,6 +18,5 @@
 </ol>
 
 
-<h3>here a simple video</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3i5iCu-5nec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://www.youtube.com/embed/3i5iCu-5nec">here a simple video</a>
 
