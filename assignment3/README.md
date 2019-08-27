@@ -18,5 +18,5 @@
 </ol>
 
 
-<a href="https://youtu.be/3i5iCu-5nec" target="_blank"><h1>view a simple video on youtube</h1></a>
+<a href="https://www.youtube.com/embed/3i5iCu-5nec" target="_blank"><h1>view a simple video on youtube</h1></a>
 
