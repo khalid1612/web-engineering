@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fontAwesome.css">
+</head>
+<body style="background:#e4e4e4">
+
+<header>
+    <nav class="navbar bg-primary navbar-dark navbar-expand-sm border-bottom border-warning">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Assignment 3</a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-uppercase text-light" href="../index.html">Home</a> </li>
+                <li class="nav-item"><a class="nav-link text-uppercase text-light font-weight-bold" href="student-list.html">student list</a> </li>
+                <li class="nav-item"><a class="nav-link text-uppercase text-light" href="counselling.html">counselling hour</a> </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section class="pt-5">
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-6">
+                        <form>
+                            <div class="form-group">
+                                <select id="slot" class="form-control">
+                                    <option>All</option>
+                                    <!-- <option>Monday 15.00-17.00</option>
+                                    <option>Tuesday 14.00-16.00</option>
+                                    <option>Thursday 12.00-13.00</option>
+                                    <option>Friday 10.00-12.00</option> -->
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-inline justify-content-end">
+                            <div>
+                                <input id="search-value" class="form-control d-inline" type="text" placeholder="Email or SID" required>
+                                 <button id="search" class="btn btn-warning text-uppercase">search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <table id="students-table" class="table table-hover text-center table-bordered">
+                    <thead id="students-table-head" class="bg-dark text-light">
+                        <tr class="text-capitalize">
+                            <th>#</th>
+                            <th>name</th>
+                            <th>email</th>
+                            <th>SID</th>
+                            <th>slot</th>
+                            <!-- <th>edit</th> -->
+                            <th>delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="students-table-body">
+                        <!-- <tr>
+                            <th>1</th>
+                            <td>khalid</td>
+                            <td>khalid@gmail.com</td>
+                            <td>162.15.7705</td>
+                            <td>Monday 15.00-17.00</td>
+                            <td>
+                                <i class="fas fa-pencil-alt text-info mr-1" style="cursor: pointer;" onclick="deleleRow()"></i>
+                                <i class="far fa-trash-alt text-warning" style="cursor: pointer;"></i>
+                            </td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/fontAwesome.js"></script>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/fetch-students.js"></script>
+</body>
+</html>

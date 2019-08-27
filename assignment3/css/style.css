@@ -1,0 +1,15 @@
+#showcase{
+  min-height: 500px;
+  background-size: cover;
+  background-image: url("/img/cover.png");
+  background-attachment: fixed;
+}
+
+#showcase .dark-overlay{
+  background: rgba(0,0,0,.8);
+  min-height: 500px;
+}
+
+#register-form{
+  background: #1b1e21;
+}

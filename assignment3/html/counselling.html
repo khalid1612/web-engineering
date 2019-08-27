@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>counselling hour</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/fontAwesome.css">
+</head>
+<body style="background:#e4e4e4">
+
+  <header>
+      <nav class="navbar bg-primary navbar-dark navbar-expand-sm border-bottom border-warning">
+          <div class="container">
+              <a class="navbar-brand" href="../index.html">Assignment 3</a>
+              <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link text-uppercase text-light" href="../index.html">Home</a> </li>
+                  <li class="nav-item"><a class="nav-link text-uppercase text-light" href="student-list.html">student list</a> </li>
+                  <li class="nav-item"><a class="nav-link text-uppercase text-light font-weight-bold" href="counselling.html">counselling hour</a> </li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+
+  <section class="pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <table class="table text-center table-hover">
+                <thead class="bg-warning">
+                  <tr class="text-capitalize">
+                    <th>day</th>
+                    <th>hour</th>
+                    <th>total seats</th>
+                    <th>available seats</th>
+                    <th>edit</th>
+                  </tr>
+                </thead>
+                <tbody id="coun-table-body">
+                  <!-- <tr>
+                    <td>saturday</td>
+                    <td>10.00-12.00</td>
+                    <td>50</td>
+                    <td>30</td>
+                  </tr>
+                  <tr>
+                    <td>saturday</td>
+                    <td>10.00-12.00</td>
+                    <td>50</td>
+                    <td>20</td>
+                  </tr>
+                  <tr>
+                    <td>saturday</td>
+                    <td>10.00-12.00</td>
+                    <td>50</td>
+                    <td>40</td>
+                  </tr> -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+    <section class="pt-5 alert alert-dismissible" id="update-section">
+      <div class="container">
+        <div class="card">
+          <button type="button" class="close" data-dismiss="alert" id="closeBtn"><span>&times;</span></button>
+          <div class="card-body">
+            <div class="form-inline justify-content-center">
+              <div>
+                <br />
+                <label id="labelDay" class="font-weight-bold mr-3"></label>
+              </div>
+              <div>
+                Time<br />
+                <input type="text" placeholder="time" id="inTime" class="form-control mr-2 " />
+              </div>
+              <div>
+                Total seats<br />
+                <input type="number" placeholder="Total seat" id="inSeat" class="form-control mr-2" />
+              </div>
+              <div>
+                <br />
+                <button id="update" class="btn btn-warning">update</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/fontAwesome.js"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/fetch-counselling.js"></script>
+</body>
+</html>
